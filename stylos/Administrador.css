@@ -1,0 +1,146 @@
+/* HEADER */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:white;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* LOGO */
+.logo img{
+  width:140px;
+}
+.logo h1{
+  margin:0;
+}
+
+.logo span{
+  font-weight:normal;
+}
+
+/* NAV */
+.nav{
+  display:flex;
+  gap:25px;
+}
+
+/* LINKS */
+.nav a{
+  text-decoration:none;
+  color:#334155;
+  font-weight:600;
+  transition:.3s;
+}
+
+/* HOVER Y ACTIVO */
+.nav a:hover,
+.nav .active{
+  color:#2563eb;
+}
+
+/* BOTON DERECHO */
+.boton-primero{
+  padding:12px 24px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.boton-primero:hover{
+  background:#1d4ed8;
+}
+
+/* CONTENEDOR */
+.container{
+  padding:20px 40px;
+}
+
+/* CAJA PERMISOS */
+.box-permisos{
+  background:#ddd;
+  color:black;
+  padding:20px;
+  border-radius:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:10px;
+}
+
+.box-permisos button{
+  background:#7fb3c9;
+  border:none;
+  padding:12px 20px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+/* ROLES */
+.roles{
+  background:#ddd;
+  color:black;
+  padding:20px;
+  border-radius:15px;
+  margin-top:20px;
+}
+
+/* TOP */
+.roles-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.acciones{
+  display:flex;
+  gap:10px;
+}
+
+.acciones input{
+  padding:10px;
+  border-radius:20px;
+  border:none;
+}
+
+.nuevo{
+  background:#4aa3c7;
+  border:none;
+  padding:10px 20px;
+  border-radius:20px;
+  color:white;
+  cursor:pointer;
+}
+
+/* TABLA */
+.tabla{
+  margin-top:15px;
+}
+
+.fila{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 60px;
+  padding:12px;
+  align-items:center;
+}
+
+.header-row{
+  background:#7fb3c9;
+  border-radius:10px 10px 0 0;
+  font-weight:bold;
+}
+
+.fila:not(.header-row){
+  border-bottom:1px solid #bbb;
+}
+
+/* MENU */
+.menu{
+  text-align:center;
+  cursor:pointer;
+  font-size:20px;
+}
