@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 18px 8%;
-    background: #0f172a;
+    background: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
@@ -25,7 +25,7 @@
 /* LINKS */
 .nav a{
   text-decoration:none;
-  color:#f6f6f6;
+  color:black;
   font-weight:600;
   transition:.3s;
 }
@@ -121,7 +121,7 @@ h2{
 }
 
 .card{
-  background:white;
+  background:rgba(202, 200, 200, 0.418);
   padding:15px;
   border-radius:10px;
   flex:1;
@@ -233,4 +233,15 @@ input{
 /* ICONO */
 .fecha-box::after{
   font-size:16px;
+}
+.lat{
+  width: 100%;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+.tex1{
+  text-align: right;
+  color: #0a46c7;
 }
