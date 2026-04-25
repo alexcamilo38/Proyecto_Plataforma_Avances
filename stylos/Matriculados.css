@@ -1,0 +1,170 @@
+/* HEADER */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:white;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* LOGO */
+.logo img{
+  width:140px;
+}
+.logo h1{
+  margin:0;
+}
+
+.logo span{
+  font-weight:normal;
+}
+
+/* NAV */
+.nav{
+  display:flex;
+  gap:25px;
+}
+
+/* LINKS */
+.nav a{
+  text-decoration:none;
+  color:#334155;
+  font-weight:600;
+  transition:.3s;
+}
+
+/* HOVER Y ACTIVO */
+.nav a:hover,
+.nav .active{
+  color:#2563eb;
+}
+
+/* BOTON DERECHO */
+.boton-primero{
+  padding:12px 24px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.boton-primero:hover{
+  background:#1d4ed8;
+}
+/* MAIN */
+.main{
+  display:flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+  width:220px;
+  background:#dcdcec;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.perfil{
+  text-align:center;
+}
+
+.perfil img{
+  width:150px;
+}
+
+.menu{
+  margin-top:20px;
+}
+
+.item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:10px 0;
+}
+
+.item img{
+  width:20px;
+}
+
+.bottom{
+  margin-top:40px;
+}
+
+/* CONTENIDO */
+.content{
+  flex:1;
+  padding:20px;
+}
+
+h1{
+  margin-bottom:15px;
+}
+
+/* BUSCADOR */
+.search input{
+  width:100%;
+  padding:12px;
+  border-radius:20px;
+  border:none;
+  background-color: rgba(115, 115, 115, 0.233);
+}
+
+/* TABLA */
+.table{
+  margin-top:15px;
+}
+
+.row{
+  display:grid;
+  grid-template-columns:80px 1fr 150px 100px 80px 120px;
+  align-items:center;
+  background:#e5e5ef;
+  color:rgb(0, 0, 0);
+  padding:12px;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+
+.header-row{
+  background:#7fb3c9;
+  color:black;
+  font-weight:bold;
+}
+
+/* BADGES */
+.badge{
+  background:#cfd3e6;
+  padding:5px 10px;
+  border-radius:10px;
+}
+
+.grado{
+  background:#2d2b3f;
+  color:white;
+  padding:6px 10px;
+  border-radius:8px;
+}
+.side-menu p,
+.side-bottom p{
+  margin:15px 0;
+  cursor:pointer;
+}
+.lat{
+  width: 100%;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+.text1{
+  text-align: right;
+  color: #0a46c7;
+}
