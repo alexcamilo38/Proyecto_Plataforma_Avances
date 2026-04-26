@@ -1,0 +1,256 @@
+/* HEADER */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:white;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* LOGO */
+.logo img{
+  width:140px;
+}
+.logo h1{
+  margin:0;
+}
+
+.logo span{
+  font-weight:normal;
+}
+
+/* NAV */
+.nav{
+  display:flex;
+  gap:25px;
+}
+
+/* LINKS */
+.nav a{
+  text-decoration:none;
+  color:#334155;
+  font-weight:600;
+  transition:.3s;
+}
+
+/* HOVER Y ACTIVO */
+.nav a:hover,
+.nav .active{
+  color:#2563eb;
+}
+
+/* BOTON DERECHO */
+.boton-primero{
+  padding:12px 24px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.boton-primero:hover{
+  background:#1d4ed8;
+}
+.side-menu p,
+.side-bottom p{
+  margin:15px 0;
+  cursor:pointer;
+}
+/* MAIN */
+.main{
+  display:flex;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.logo .icono {
+    width: 40px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+/* BOTON ACTIVO */
+.menu .active {
+    background: #5a5cff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* ================= CONTENEDOR ================= */
+.container {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+/* SIDEBAR */
+.sidebar{
+  width:220px;
+  background:#dcdcec;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #bbb;
+    margin: auto;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.sect {
+    flex: 1;
+    padding: 20px;
+}
+
+/* TITULO */
+h1 {
+    color: rgb(17, 7, 219);
+    margin-bottom: 20px;
+}
+
+/* CONTENIDO */
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+/* ================= CATALOGO ================= */
+.catalogo {
+    width: 30%;
+}
+
+.card {
+    background: #5f7fb3;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card .img {
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card button {
+    background: #4fc3dc;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ================= NOTAS ================= */
+.notas-container {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+.nota {
+    background: #5f7fb3;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+}
+
+.perfil-mini {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.titulo-nota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    background: #4fc3dc;
+    color: black;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ================= TABLA ================= */
+table {
+    width: 100%;
+    background: #ddd;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+th {
+    background: #5a5cff;
+    color: white;
+}
+
+td, th {
+    padding: 6px;
+    text-align: center;
+}
+.lat{
+  width: 100%;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
